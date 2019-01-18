@@ -12,6 +12,8 @@
 	<center>
 		<h1>Listing de jeux-vidéos par plate-forme</h1>
 		
+		<marquee> <h3>Survolez le tableau s'il vous plait</h3></marquee>
+
 		<table border="bordered">
 			<tr>
 				<th>Numéro</th>
@@ -47,7 +49,23 @@
 				<td>PlayStation 4</td>
 			</tr>
 		</table>
+
+		<div id="apercu">
+			<h3>Voici l'apercu de chaque cellule au survol</h3>
+			<img src="ici2.png" width="100">
+			<div id="contenu_apercu">
+				
+			</div>
+		</div>
 	</center>
+
+	<script>
+		$(function(){
+			$('td').hover(function(){
+				$('#contenu_apercu').text($(this).text());
+			});
+		});
+	</script>
 
 </body>
 </html>

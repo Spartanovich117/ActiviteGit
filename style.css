@@ -11,8 +11,13 @@ h1{
 body{
 	background-color: #006266;
 	color: #fff;
+	font-size: 1.5em;
 }
 
 th{
 	color: #ff4771;
+}
+
+#apercu{
+	color: #A7A7A7;
 }
