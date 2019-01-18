@@ -1,3 +1,18 @@
 table{
 	text-align: center;
+	font-family: "tahoma";
+}
+
+h1{
+	font-family: "Curlz MT";
+	color: #67D8EF;
+}
+
+body{
+	background-color: #006266;
+	color: #fff;
+}
+
+th{
+	color: #ff4771;
 }
